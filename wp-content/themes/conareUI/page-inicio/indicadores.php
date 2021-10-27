@@ -1,10 +1,21 @@
+<?php 
+	if( have_rows('indicadores_home',$idPage) ): 
+		while( have_rows('indicadores_home',$idPage) ): the_row(); 
+			$indi_titulo_home = get_sub_field('indi_titulo_home',$idPage);
+			$indi_link_home = get_sub_field('indi_link_home',$idPage);
+			$indi_imagen_home = get_sub_field('indi_imagen_home',$idPage);
+	  endwhile;
+	endif;
+	
+	
+?>	
 <section id="section-indicadores" class="section">
 			<div class="container">
 				<div class="content">
 					<div class="left">
 			    		<div class="info">
 			    			<h2 class="line-below">
-				    			Indicadores de la Educación Universitaria Estatal
+				    			<?= $indi_titulo_home ?>
 				    		</h2>
 				    		<div class="text">
 				    			<p>
@@ -30,7 +41,7 @@
 						</div>
 					</div>
 					<div class="action">
-			    		<a class="button" href="#">Ver Indicadores</a>
+			    		<a class="button" href="<?= $indi_link_home['url']?>"><?= $indi_link_home['title'] ?></a>
 			    	</div>
 				</div>
 			</div>	

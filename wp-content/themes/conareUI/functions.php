@@ -90,6 +90,13 @@ function agenda_custom_post_type() {
 add_action( 'init', 'agenda_custom_post_type', 0 );
 
 
+// trabajos
+include get_template_directory() . '/functions/tc_proyDeDesarrollo.php';
+
+// publicaciones
+include get_template_directory() . '/functions/tc_publicaciones.php';
+
+
 //FUNCIONES
 function getPostThumbnailId($post){
 	$thumbID = get_post_thumbnail_id( $post->ID );

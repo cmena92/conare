@@ -1,10 +1,18 @@
-
-		
+<?php 
+	if( have_rows('agenda_home',$idPage) ): 
+		while( have_rows('agenda_home',$idPage) ): the_row(); 
+			$agenda_titulo_home = get_sub_field('agenda_titulo_home',$idPage);
+			$agenda_link_home = get_sub_field('agenda_link_home',$idPage);
+	  endwhile;
+	endif;
+	
+	
+?>	
 		<section id="section-agenda" class="section">
 			<div class="container">
 				<div class="content">
 					<div class="left">
-						<h2>Agenda</h2>
+						<h2><?= $agenda_titulo_home ?></h2>
 						<?php
 						$image = 'vacio';
 						$args = array('post_type'=>array('agenda'));
@@ -43,7 +51,7 @@
 					</div>
 				</div>
 				<div class="action">
-					<a href="/agenda" class="button"><span>Ver Agenda</span></a>
+					<a href="<?= $agenda_link_home['url'] ?>" class="button"><span><?= $agenda_link_home['title'] ?></span></a>
 				</div>
 			</div>
 		</section>

@@ -1,6 +1,15 @@
 <?php get_header(); ?>
 
 
+<?php
+	$idPage = get_the_ID();
+	$titulo_trabajos_home = get_field('titulo_trabajos_home');
+	$agenda_link_home = get_field('agenda_link_home');
+	$titulo_publicaciones_home = get_field('titulo_publicaciones_home');
+	
+	
+	
+ ?>
 <?php include get_template_directory() . '/page-inicio/alerta_superior.php'; ?>
 
 	

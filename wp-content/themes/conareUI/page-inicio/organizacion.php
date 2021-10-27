@@ -1,7 +1,15 @@
+
+<?php 
+
+	
+	$organizacion_titulo_home = get_field('organizacion_titulo_home');
+	$organizacion_texto_home = get_field('organizacion_texto_home');
+	
+?>
 <section id="section-organizacion" class="section">
 			<div class="container">
-				<h2 class="line-below">Organización</h2>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a gallery of type and scrambled it to make a type specimen book.</p>
+				<h2 class="line-below"><?= $organizacion_titulo_home ?></h2>
+				<p><?= $organizacion_texto_home ?></p>
 				<div class="org-logos">
 				
 				<?php if( have_rows('organizacion_logos') ): ?>

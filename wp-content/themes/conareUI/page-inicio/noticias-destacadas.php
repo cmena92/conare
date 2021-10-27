@@ -1,7 +1,21 @@
 
+<?php 
+
+	//Obtener los campos de los layouts del home
+	if( have_rows('noticias_home') ): 
+		while( have_rows('noticias_home') ): the_row(); 
+			$noti_titulo_home = get_sub_field('noti_titulo_home');
+			$noti_link_home = get_sub_field('noti_link_home');
+	  endwhile;
+	endif;
+
+	 
+	
+	
+?>
 		<section id="section-noticias" class="section">
 			<div class="container">
-				<h2 class="line-below">Noticias</h2>
+				<h2 class="line-below"><?= $noti_titulo_home ?></h2>
 				<div class="posts">
 				
 				<?php 
@@ -46,8 +60,8 @@
 			
 				</div>
 				<div class="action">
-					<a href="/noticias" class="button">
-						<span>Ver todas las Noticias</span>
+					<a href="<?= $noti_link_home['url'] ?>" class="button">
+						<span><?= $noti_link_home['title'] ?></span>
 					</a>
 				</div>
 			</div>
