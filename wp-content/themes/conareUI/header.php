@@ -6,7 +6,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/styles.css" type="text/css" media="screen" />
-	
+	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/responsive.css">
    
    <!-- Fonts Google Cabin -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">

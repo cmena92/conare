@@ -1,0 +1,641 @@
+@media only screen and (max-width : 767px) {
+
+
+	/*Banner ============================== */
+
+	#section-banner-top .banner-info {
+		padding-top: 50px;
+	}
+	#section-banner-top .banner-info .subtitle {
+		margin-bottom: 10px;
+		font-size: 14px;
+		line-height: 16px;
+		height: auto;
+	}
+	#section-banner-top .banner-info h1 {
+		height: auto;
+		margin-bottom: 10px;
+	}
+	#section-banner-top .banner-info p {
+		height: auto;
+		margin-bottom: 10px;
+	}
+
+	/*Departament ========================= */
+
+	#section-new-deparment .container .left {
+		float: none;
+		width: 100%;
+	}
+	#section-new-deparment .container .right {
+		float: none;
+		width: 100%;
+		padding: 25px 20px;
+	}
+
+	#section-new-deparment .container .left img {
+		border-radius: 8px 8px 0 0;
+	}
+
+	#section-new-deparment .container .right h2 {
+		height: auto;
+		font-size: 24px;
+		line-height: 28px;
+		margin-bottom: 10px;
+	}
+	#section-new-deparment .container .right p {
+		height: auto;
+		font-size: 16px;
+		line-height: 20px;
+		margin-bottom: 15px;
+	}
+
+	/*Global Messages ===================== */
+	
+	.global-messages .container .info {
+		padding: 0 30px 0 20px;
+		line-height: 14px;
+		font-size: 11px;
+	}
+
+	/*Header Panel ======================== */ 
+
+	.header-panel .container {
+		padding: 0 20px;
+	}
+	
+	/*Organizacion ======================== */
+
+	#section-organizacion .container {
+		padding: 65px 20px 30px;
+	}
+	#section-organizacion .container p {
+		height: auto;
+	}
+	#section-organizacion .org-logos .item {
+		max-width: 100%;
+	}
+
+	/*Noticias ============================ */
+
+	#section-noticias .container {
+		padding: 65px 5px 40px!important;
+	}
+	#section-noticias .container .posts {
+		margin: 30px 0;
+	}
+	#section-noticias .container .post-item {
+		width: 100%;
+	}
+
+	/*Agenda ============================= */
+
+	#section-agenda .container .left {
+		float: none;
+		width: 100%;
+	}
+	#section-agenda .container .right {
+		float: none;
+		width: 100%;
+	}
+
+	/*Publicaciones ====================== */
+
+	#section-publicaciones .content .image {
+		float: none;
+		width: 100%;
+	}
+	#section-publicaciones .content .info {
+		float: none;
+		width: 100%;
+		padding: 40px 20px 50px;
+	}
+
+	/*Desarrollo ========================= */
+
+	#section-desarrollo .container h2 {
+		height: auto;
+	}
+	#section-desarrollo .container .item {
+		width: 100%;
+		float: none;
+		margin-bottom: 20px;
+	}
+
+	/*Indicadore ========================= */
+
+	#section-indicadores .content h2 {
+		text-align: center;
+		height: auto;
+	}
+
+	#section-indicadores .content .text p {
+		font-size: 26px;
+		line-height: 26px;
+	}
+	#section-indicadores .content .text .big-red {
+		font-size: 55px;
+		line-height: 55px;
+	}
+	#section-indicadores .content .action {
+		bottom: 40px;
+	}
+
+	/*Nuestras Universidades ============== */
+	
+	#nuestras-universidades .container {
+		padding: 55px 20px 60px;
+	}
+	#nuestras-universidades .container .left {
+		float: none;
+		width: 100%;
+		margin-bottom: 50px;
+	}
+	#nuestras-universidades .container .right {
+		float: none;
+		width: 100%;
+	}
+
+	/*Transparencia ======================= */
+
+	#section-tranparencia .content .items {
+		margin: 20px 0 0;
+	}
+	#section-tranparencia .content .item {
+		float: none;
+		width: 100%;
+		margin-bottom: 5px;
+	}
+
+	/*Footer ============================= */
+
+	.footer .content .item {
+		width: 100%;
+		float: none;
+		margin: 0 0 20px;
+	}
+	.footer .content .item.logo img {
+		margin: 40px auto 20px;
+	}
+	.footer .content .item.contacto {
+		width: 100%;
+		padding: 0;
+	}
+	.footer .content .contacto .social li {
+		margin-bottom: 0;
+	}
+
+	.footer .bottom {
+		margin: 20px 0 0;
+	}
+
+}
+
+
+@media only screen and (max-width : 960px) { 
+
+	/*Noticias ============================ */
+
+	#section-noticias .container {
+		padding: 85px 5px 60px;
+	}
+
+	/*Desarrollo ========================== */
+
+	#section-desarrollo .container {
+		padding: 61px 5px 63px;
+	}
+
+	/*Indicadores ========================= */
+
+	#section-indicadores .content .info {
+		text-align: center;
+		margin: 0 auto;
+	}
+	#section-indicadores .content .text {
+		margin: 30px 0;
+	}
+	#section-indicadores .content .left {
+		float: none;
+		width: 100%;
+	}
+	#section-indicadores .content .right {
+		float: none;
+		width: 100%;
+	}
+	#section-indicadores .owl-dots {
+		bottom: auto;
+	    left: 0;
+	    margin: 0 auto;
+	    right: 0;
+	    top: -60px;
+	}
+
+
+	/*Nuestras Universidades ============== */
+
+	#nuestras-universidades .container .tab-link.ucr {
+		left: 0;
+	}
+	#nuestras-universidades .container .tab-link.ucr img {
+		width: 100px;
+	}
+
+	#nuestras-universidades .container .tab-link.tec {
+		left: 125px;
+	}
+	#nuestras-universidades .container .tab-link.tec img {
+		width: 90px;
+	}
+
+	#nuestras-universidades .container .tab-link.una img {
+		width: 90px;
+	}
+
+	#nuestras-universidades .container .tab-link.uned {
+	    top: 249px;
+	    left: 235px;
+	}
+	#nuestras-universidades .container .tab-link.uned img {
+		width: 100px;
+	}
+
+	#nuestras-universidades .container .tab-link.utn {
+		left: 245px;
+	}
+	#nuestras-universidades .container .tab-link.utn img {
+		width: 90px;
+	}
+
+	/*Transparencia ====================== */
+
+	#section-tranparencia .container .content {
+
+	}
+}
+
+@media only screen and (min-width : 768px) and (max-width : 960px) { 
+
+
+	/*Publicaciones ====================== */
+
+	#section-publicaciones {
+		margin-top: 30px;
+	}
+
+	#section-publicaciones .content .image {
+		margin-top: -30px;
+	}
+
+	/*Footer ============================ */
+
+	.footer .content .item.logo img {
+		width: 70%;
+	}
+}
+
+@media only screen and (max-width : 1023px) {
+
+	/*Header Panel ======================= */
+
+	.header-panel .left {
+		position: relative;
+	}
+
+	.header-panel .left .active-drop-down {
+		padding: 8px 0;
+		min-width: 160px;
+	}
+	.header-panel .left .active-drop-down,
+	.header-panel .left .active-drop-down a {		
+		float: left;
+		opacity: 0.8;
+		color: #FFFFFF;
+		font-family: Cabin;
+		font-size: 14px;
+		letter-spacing: 0.3px;
+		line-height: 18px;
+	}
+	.header-panel .left .active-drop-down i {
+		padding: 2px 5px 0;
+	}
+	.header-panel .left .active-drop-down:hover {
+		opacity: 1;
+	}
+	.header-panel .left ul {
+		display: none;
+	    top: 35px;
+	    left: 0px;
+	    position: absolute;
+	    z-index: 11;
+	    background: #004574;
+	    padding: 5px 0 10px;
+	    width: 128%;
+	    border-radius: 0px 0px 8px 8px;
+	}
+	.header-panel .left ul li {
+		cursor: pointer;
+	  	transition: background .35s ease;
+	  	float: none;
+	  	display: inline-block;
+	  	width: 100%;
+	  	margin: 0;
+	  	padding: 8px 15px;
+	}
+	.header-panel .left ul li.search-container {
+		display: none!important;
+	}
+
+	/*Nav ================================ */
+
+	.header-nav .toggle-menu {
+		width: 32px;
+		height: 50px;
+		display: inline-block;
+		position: relative;
+		top: 10px;
+		right: 10px;
+		float: right;
+		z-index: 1000;
+	}
+
+	.header-nav .toggle-menu i {
+		position: absolute;
+		display: block;
+		height: 2px;
+		background: #fff;
+		width: 30px;
+		left: 0px;
+		-webkit-transition: all .3s;
+		transition: all .3s;
+	}
+
+	.header-nav  .toggle-menu i:nth-child(1) {
+		top: 16px;
+	}
+
+	.header-nav  .toggle-menu i:nth-child(2) {
+		top: 24px;
+	}
+
+	.header-nav  .toggle-menu i:nth-child(3) {
+		top: 32px;
+	}
+
+	.header-nav  .toggle-menu.active i:nth-child(1) {
+		top: 25px;
+		-webkit-transform: rotateZ(45deg);
+		transform: rotateZ(45deg);
+	}
+
+	.header-nav  .toggle-menu.active i:nth-child(2) {
+		background: transparent;
+	}
+
+	.header-nav  .toggle-menu.active i:nth-child(3) {
+		top: 25px;
+		-webkit-transform: rotateZ(-45deg);
+		transform: rotateZ(-45deg);
+	}
+	.header-nav .menu-drawer {
+		width: 310px;
+  		background-color: #004574;
+  		position: absolute;
+  		right: -310px;
+  		top: 0;
+  		/*transition: right linear .2s;*/
+  		padding: 80px 0 20px;
+  		box-shadow: 0px 3px 4px 0px rgb(0 0 0 / 50%);
+    	border-radius: 0 0 0 8px;
+    	transition: visibility 0.5s, right 0.5s, opacity 0.5s linear;
+    	opacity: 0;
+    	height: 0;
+    	width: 0
+	}
+	.header-nav .menu-drawer.open {
+		opacity: 1;
+		height: auto;
+		width: 310px;
+	}
+	.header-nav .open {
+		right: 0px;
+		transition: visibility 0s, right 0.5s, opacity 0.5s linear;
+	}
+	.nav {
+		height: 100vh;
+		overflow-y: scroll;
+		position: relative
+	}
+	.nav .nav-item {
+		float: none;
+		display: inline-block;
+		width: 100%;
+	}
+	.nav .nav-item.level0.hover:hover {
+		padding-bottom: 0;
+	}
+	.nav .nav-item.level0 i {
+		left: auto;
+		bottom: auto;
+		right: 12px;
+	}
+	.nav .nav-item.level0 > ul {
+		width: 100%;
+	    box-shadow: none;
+	    opacity: 1;
+	    position: static;
+	    height: auto;
+	    visibility: visible;
+	    padding: 0 0 10px;
+	}
+	.nav .nav-item.level0 > a {
+		padding: 10px 12px;
+	}
+
+	.header ul li.search-container {
+		display: block!important;
+		padding: 10px 12px;
+	}
+	.header ul li.search-container input {
+		width: 90%;
+	}
+	.header ul li.search-container button {
+		right: 0;
+	}
+}
+
+@media only screen and (min-width : 1024px) {
+
+	/*Header Panel ======================= */
+
+	.header-panel .left .active-drop-down {
+		display: none;
+	}
+
+	/*Nav =============================== */
+
+	.header-nav .container .topbar-right .toggle-menu {
+		display: none;
+	}
+}
+
+@media only screen and (max-width : 1100px) {
+
+	/*Global Messages ==================== */
+
+	.global-messages .container {
+		height: auto;
+		padding: 11px 0 10px;
+	}
+	.global-messages .container .info {
+		height: auto;
+	}
+	.global-messages .container .close {
+		right: 8px;
+	}
+}
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+
+	/*Nuevo Departament ================== */
+
+	#section-new-deparment .container .left img {
+		height: 300px;
+		object-fit: cover;
+		object-position: center;
+	}
+
+	/*Noticias ========================== */
+
+	#section-noticias .container .post-title h3 {
+		height: auto;
+	}
+
+
+	/*Desarrollo ======================== */
+
+	#section-desarrollo .container .description h3, 
+	#section-desarrollo .container .description * {
+		font-size: 16px;
+		line-height: 20px;
+	}
+	#section-desarrollo .container .description p {
+		font-size: 12px;
+	}
+}
+@media only screen and (min-width : 960px) and (max-width : 1024px) { 
+
+
+	/*Indicadores ======================== */
+
+	#section-indicadores .content .info {
+		text-align: center;
+		padding: 30px 20px 30px 20px;
+	}
+
+}
+@media only screen and (min-width : 1024px) and (max-width : 1160px) { 
+
+	/*Header Panel ======================= */
+
+	.header-panel .left ul li {
+		margin-right: 10px;
+	}
+	.header-panel ul li.search-container input {
+		width: 175px;
+	}
+
+	/*Nav ================================ */
+
+	.nav .nav-item a {
+		font-size: 12px;
+	}
+}
+@media only screen and (min-width : 768px) and (max-width : 1280px) { 
+
+	/*Nuevo Departamento ================= */
+
+	#section-new-deparment .container .right h2 {
+		height: auto;
+	}
+	#section-new-deparment .container .right p {
+		height: auto;
+	}
+	#section-new-deparment .container .right .button {
+		margin-top: 10px;
+	}
+
+	/*Nuestras Universidades ============= */
+
+	#nuestras-universidades .container .tab-link.ucr {
+		left: 0;
+	}
+
+	#nuestras-universidades .container .tab-link.tec {
+		left: 145px;
+	}
+
+}
+
+@media only screen and (min-width : 960px) and (max-width : 1280px) { 
+		/*Indicadores ======================== */
+		#section-indicadores .content .info {
+			text-align: center;
+		}
+		#section-indicadores .content h2 {
+			font-size: 19px;	
+		}
+
+		#section-indicadores .content .text {
+			margin: 20px 0 0;
+		}
+
+		#section-indicadores .content .text p {
+			font-size: 20px;
+			line-height: 29px;
+		}
+		#section-indicadores .content .text .big-red {
+			font-size: 48px;
+			line-height: 48px;
+		}
+		#section-indicadores .content .action {
+			bottom: 40px;
+		}
+
+		#section-indicadores .owl-dots {
+			left: -60%;
+			bottom: 40px;
+		}
+}
+@media only screen and (min-width : 1024px) and (max-width : 1280px) { 
+
+	/*Nav ================================ */
+
+	.nav .nav-item.level0 > a {
+		padding: 20px 12px;
+	}
+
+	/*Nuevo Departamento ================= */
+
+	#section-new-deparment .container .left img {
+		min-height: 298px;
+	    object-fit: cover;
+	    object-position: center;
+	}
+}
+
+@media only screen and (min-width : 1280px) and (max-width : 1480px) {
+
+	/*Indicadores ======================== */
+
+	#section-indicadores .content h2 {
+		font-size: 26px;
+	}
+	#section-indicadores .content .text p {
+		font-size: 30px;
+		line-height: 39px;
+	}
+	#section-indicadores .owl-dots {
+		left: -58%;
+		bottom: 51px;
+	}
+}
